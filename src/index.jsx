@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Datos} from './Componets/Datos.jsx';
+import './Componets/Datos.css'; 
+import Estados from './Componets/Estados';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <Estados />
   </React.StrictMode>
 );
 
